@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&family=Fugaz+One&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+body
+{
+	position: relative;
+	margin: 50px;
+	margin-right: 25px;
+	text-align: justify;
+	background: #DAF7A6;
+}
+header
+{
+	font-family: Dancing Script;
+	text-align: center;
+	text-decoration: underline;
+	font-size : 25px;
+}
+#verticalline
+{
+	border-left: 5px solid #239B56;
+  	height: 154px;
+  	
+  	top: 150px;
+}
+.polaroid a 
+{
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+}
+.polaroid a:after 
+{
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+}
+.polaroid img 
+{
+    display: block;
+	width: 250px;
+}
+.polaroid a:hover 
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+#padding
+{
+	padding-left: 10px;
+}
+p
+{
+	font-weight : bold;
+	font-family : Marck Script;
+	font-size: 18px;
+}
+h3
+{
+	text-align: center;
+	font-family: Oleo Script;
+}
+h4 p
+{
+	text-align: center;
+	font-family : Fugaz One;
+}
+hr
+{
+	border: 1px solid grey;
+  	border-radius: .5px;
+}
